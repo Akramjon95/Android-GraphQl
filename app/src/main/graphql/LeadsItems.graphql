@@ -1,0 +1,8 @@
+query LeadsItems {
+    allPeople {
+        people {
+            id
+            name
+        }
+    }
+}

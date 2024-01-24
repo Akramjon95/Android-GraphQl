@@ -1,0 +1,8 @@
+query LeadItem($personId: ID){
+    person(personID: $personId) {
+        id
+        name
+        birthYear
+        gender
+    }
+}
